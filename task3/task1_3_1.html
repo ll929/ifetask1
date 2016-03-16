@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1_3_1</title>
+    <!--双飞翼布局-->
+    <style>
+        *{
+            margin: 0 0;
+            padding: 0 0;
+        }
+        body{
+            padding: 20px;
+        }
+        #wrap,.left,.right,.main,img,.content{
+            border: 1px solid #999;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        #wrap{
+            background-color: #eee;
+            overflow: hidden;
+            min-width: 460px;
+        }
+        .main,.left,.right,img{
+            float: left;
+            background-color: #fff;
+        }
+        .main{
+            width: 100%;
+            border: none;
+            background-color: #eee;
+            padding-top: 0;
+        }
+        .left{
+            width: 200px;
+            margin-left: -100%;
+        }
+        .right{
+            width: 120px;
+            margin-left: -120px;
+            padding-bottom: 0;
+        }
+        img{
+            position: relative;
+            width: 80px;
+            height: 80px;
+            padding: 0;
+        }
+        .right img{
+            margin-bottom: 20px;
+            left: 50%;
+            margin-left: -40px;
+        }
+        .content{
+            margin: 0 120px 0 200px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="main">
+        <div class="content">
+            <p>我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历</p>
+            <p>我们团队的来哈哈哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈哈历我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历</p>
+        </div>
+    </div>
+    <div class="left">
+        <img src="images/logo.png">
+        <h3>FEcoders</h3>
+    </div>
+    <div class="right">
+        <img src="images/logo.png">
+        <img src="images/logo.png">
+        <img src="images/logo.png">
+        <img src="images/logo.png">
+    </div>
+</div>
+</body>
+</html>

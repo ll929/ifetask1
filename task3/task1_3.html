@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1_3</title>
+    <!--圣杯布局-->
+    <style>
+        *{
+            margin: 0 0;
+            padding: 0 0;
+        }
+        body{
+            padding: 20px;
+        }
+        #wrap,.left,.right,.main,img{
+            border: 1px solid #999;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        #wrap{
+            background-color: #eee;
+            overflow: hidden;
+            padding: 20px 160px 20px 240px;
+            min-width: 602px;
+        }
+        .main,.left,.right,img{
+            position: relative;
+            float: left;
+            background-color: #fff;
+        }
+        .main{
+            width: 100%;
+        }
+        .left{
+            width: 200px;
+            margin-left: -100%;
+            left: -220px;
+        }
+        .right{
+            width: 120px;
+            margin-left: -120px;
+            right: -140px;
+            padding-bottom: 0;
+        }
+        img{
+            width: 80px;
+            height: 80px;
+            padding: 0;
+        }
+        .right img{
+            margin-bottom: 20px;
+            left: 50%;
+            margin-left: -40px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="main">
+        <p>我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历</p>
+        <p>我们团队的来哈哈哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈历我们团队的来历我们团队的哈哈哈哈历我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历我们团队的来历</p>
+    </div>
+    <div class="left">
+        <img src="images/logo.png">
+        <h3>FEcoders</h3>
+    </div>
+    <div class="right">
+        <img src="images/logo.png">
+        <img src="images/logo.png">
+        <img src="images/logo.png">
+        <img src="images/logo.png">
+    </div>
+</div>
+</body>
+</html>
