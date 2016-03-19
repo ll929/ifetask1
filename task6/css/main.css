@@ -322,6 +322,7 @@ body{
 .con-bottom-right-bottom-top>li{
     margin: 15px 0 20px 10px;
     position: relative;
+    white-space: nowrap;
 }
 .con-bottom-right-bottom-top span:nth-child(3){
     position: absolute;
@@ -330,15 +331,6 @@ body{
     font-size: 12px;
     font-style: italic;
     background-color: #eeedd6;
-}
-.con-bottom-right-bottom-top span:nth-child(1){
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #eeedd6;
-}
-.con-bottom-right-bottom-top span:nth-child(2){
-   white-space: nowrap;
 }
 .con-bottom-right-bottom-left{
     height: 160px;
