@@ -1,0 +1,250 @@
+/*顶部*/
+body{
+    font-family: "黑体",STHeiti;
+}
+#header-wrapper{
+    height: 56px;
+    background-color: #2189BF;
+    min-width: 1280px;
+}
+#main-wrapper{
+    width: 1280px;
+    background-color:#EEEEED ;
+    overflow: hidden;
+}
+#header{
+    width: 1280px;
+    height: 56px;
+}
+.logo{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    top: 10px;
+    margin-left: 40px;
+    float: left;
+}
+.logo-in{
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid #2189BF;
+    border-top: 3px solid #2189BF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.search-login-box{
+    height: 27px;
+    float: right;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+.search{
+    width: 312px;
+    height: 27px;
+    background-color: #fff;
+    border-radius: 13.5px;
+    overflow: hidden;
+    float: right;
+}
+.search-logo{
+    background: url("../image/search.png") no-repeat 15px 5px;
+    width: 37px;
+    height: 27px;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+}
+.search-ipt{
+    display: inline-block;
+    border: none;
+    height: 27px;
+    width: 275px;
+    padding: 0;
+    float: right;
+    outline: none;
+}
+.login{
+    height: 27px;
+    background: url("../image/login.png") no-repeat 20px 6px;
+    float: right;
+    font-size: 12px;
+}
+.login>p{
+    line-height: 27px;
+    margin: 0;
+    padding-left: 38px;
+    cursor: pointer;
+}
+/*侧边栏*/
+#sidebar{
+    width: 260px;
+    height: 1210px;
+    background-color: #2A2E3D;
+    float: left;
+}
+.user {
+    height: 150px;
+}
+.user>div{
+    float: left;
+    box-sizing: border-box;
+}
+.user p{
+    margin: 0;
+}
+.user-pic{
+    width: 56px;
+    height: 56px;
+    position: relative;
+    border: 2px solid #CACBCD;
+    border-radius: 100%;
+    margin-top: 18px;
+    margin-left: 46px;
+}
+.user-pic-in{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background-color: #BABABE;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.user-name{
+    height: 56px;
+    margin-top: 18px;
+    margin-left: 19px;
+}
+.user-name>p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 56px;
+}
+.user-inf{
+    width: 121px;
+    height: 28px;
+    color: #6E8095;
+    margin-top: 25px;
+}
+.user-inf>p:nth-child(1){
+    line-height: 16px;
+}
+.user-inf>p:nth-child(2){
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 12px;
+}
+.user-collection{
+    border-right: 2px solid #2B3B45;
+    padding-right: 31px;
+    text-align: right;
+}
+.user-fans{
+    padding-left: 29px;
+}
+
+/*侧边栏menu*/
+.menu{
+    font-size: 12px;
+    color: #6E8095;
+    list-style-position: inside;
+    padding: 0;
+}
+.menu>li{
+    box-sizing: border-box;
+    padding-left: 45px;
+    line-height: 40px;
+}
+.menu>li>.submenu{
+    padding-left: 20px;
+}
+.submenu>li{
+    line-height: 30px;
+}
+/*???????不能覆盖*/
+.menu a,.menu a:hover,.menu a:active,.menu a:visited,a:link{
+    text-decoration: none;
+    color: #6E8095;
+}
+.menu-active{
+    background-color: #383D4E;
+}
+.menu a.menu-active,.menu a.menu-active:hover,.menu a.menu-active:active,.menu a.menu-active:visited,.menu a.menu-active:link{
+    color: #fff;
+}
+.menu-table{
+    list-style-image: url(../image/table.png);
+    width: 260px;
+}
+.menu-table>.submenu>li:nth-child(1),.menu-table>.submenu>li:nth-child(3){
+    list-style-image:url("../image/arrow_list_f.png");
+}
+.menu-table>.submenu>li:nth-child(2){
+    list-style-image:url("../image/arrow_list_t.png");
+}
+.menu-table>.submenu>li:nth-child(2)>.submenu{
+    list-style-image:url("../image/dcc_t.png");
+}
+.menu-collection{
+    list-style-image: url("../image/star.png");
+}
+.menu-share{
+    list-style-image: url("../image/share.png");
+}
+.menu-pic{
+    list-style-image: url("../image/star.png");
+}
+.menu-group{
+    list-style-image: url("../image/star.png");
+}
+.menu-count{
+    list-style-image: url("../image/count.png");
+}
+/*内容区域*/
+#main{
+    float: right;
+    width: 1020px;
+}
+.main-tab{
+    background-color: #fff;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.main-content{
+    width: 890px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main-search{
+    height: 85px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.history-search{
+    height: 64px;
+    margin-bottom: 40px;
+    background-color: #72b16a;
+}
+.main-count{
+    position: relative;
+    height: 70px;
+    background-color: #72b16a;
+    margin-bottom: 15px;
+}
+.main-count-title{
+    position: absolute;
+    font: 12px "Microsoft YaHei";
+    top: -20px;
+    margin: 0;
+}
+.main-project{
+    height: 355px;
+    background-color: #72b16a;
+    margin-bottom: 10px;
+}
+.main-data-charts{
+    height: 355px;
+    background-color: #72b16a;
+}
