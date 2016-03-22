@@ -220,6 +220,7 @@ body{
 #main{
     float: right;
     width: 1020px;
+    margin-bottom: 100px;
 }
 .main-tab{
     position: fixed;
