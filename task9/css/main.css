@@ -9,6 +9,9 @@ body{
     height: 56px;
     background-color: #2189BF;
     min-width: 1280px;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
 }
 #main-wrapper{
     width: 1280px;
@@ -83,10 +86,12 @@ body{
 }
 /*侧边栏*/
 #sidebar{
+    position: fixed;
     width: 260px;
     height: 1210px;
     background-color: #2A2E3D;
     float: left;
+    top: 56px;
 }
 .user {
     height: 150px;
@@ -217,9 +222,15 @@ body{
     width: 1020px;
 }
 .main-tab{
+    position: fixed;
     background-color: #fff;
     height: 30px;
-    margin-bottom: 20px;
+    width: 1020px;
+    top: 56px;
+    z-index: 99998;
+    -webkit-box-shadow: 0 1px 5px #B1B1B1;
+    -moz-box-shadow:  0 1px 5px #B1B1B1;
+    box-shadow:  0 1px 5px #B1B1B1;
 }
 .main-tab-list{
     list-style-type: none;
@@ -239,7 +250,7 @@ body{
 .main-content{
     width: 890px;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 106px auto 0 auto;
 }
 .main-search{
     height: 85px;
