@@ -7,9 +7,9 @@ body{
 }
 #header-wrapper{
     height: 56px;
-    background-color: #2189BF;
     min-width: 1280px;
     width: 100%;
+    background-color: #2189BF;
     position: fixed;
     z-index: 99999;
 }
@@ -220,7 +220,7 @@ body{
 #main{
     float: right;
     width: 1020px;
-    margin-bottom: 100px;
+    height: 1266px;
 }
 .main-tab{
     position: fixed;
