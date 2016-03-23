@@ -43,8 +43,7 @@ body{
 .search-login-box{
     height: 27px;
     float: right;
-    margin-top: 14px;
-    margin-right: 85px;
+    margin: 14px 85px 0 0;
 }
 .search{
     width: 312px;
@@ -120,18 +119,15 @@ body{
     background: url("../image/logo.png") center;
     background-size:  cover;
     border-radius: 50%;
-    margin-top: 3px;
-    margin-left: 3px;
+    margin: 3px 0 0 3px;
 }
 .user-name{
     height: 56px;
-    margin-top: 18px;
-    margin-left: 19px;
+    margin: 18px 0 0 19px;
 }
 .user-name>p{
     color: #fff;
-    font-size: 16px;
-    line-height: 56px;
+    font: 16px/56px "黑体";
 }
 .user-inf{
     width: 121px;
@@ -143,9 +139,7 @@ body{
     line-height: 16px;
 }
 .user-inf>p:nth-child(2){
-    font-size: 12px;
-    font-family: "宋体";
-    line-height: 12px;
+    font: 12px/12px "宋体";
 }
 .user-collection{
     border-right: 2px solid #2B3B45;
@@ -240,8 +234,7 @@ body{
 }
 .main-tab-list>li{
     float: left;
-    font: 12.28px "黑体";
-    line-height: 30px;
+    font: 12.28px/30px "黑体";
     margin: 0 2px;
     color: #B1B1B1;
 }
@@ -291,13 +284,11 @@ body{
     width: 70px;
 }
 .search-box{
-    margin-top: 14px;
-    margin-left: 29px;
+    margin: 14px 0 0 29px;
 }
 .buyer-seller-box{
     position: relative;
-    margin-left: 40px;
-    margin-top: 14px;
+    margin: 14px 0 0 40px;
     background: url("../image/awwow_change.png") no-repeat scroll right .7em center transparent;
     padding-right: 35px;
 }
@@ -318,8 +309,7 @@ body{
     width: 120px;
 }
 .data-time-people-item-box{
-    margin-top: 14px;
-    margin-left: 30px;
+    margin: 14px 0 0 30px;
 }
 .data-time-box{
     margin-bottom: 5px;
@@ -333,15 +323,13 @@ body{
     outline: none;
 }
 .main-search input.search-btn{
-    margin-top: 29px;
-    margin-left: 30px;
+    margin: 29px 0 0 30px;
 }
 #time-taken,#people-num{
     width: 70px;
 }
 .time-taken,.item-success{
-    margin-left: .9em;
-    margin-right: .3em;
+    margin:0 .3em 0 .9em;
 }
 .history-search{
     height: 64px;
@@ -397,8 +385,7 @@ body{
     border-top: 3px solid #4388C8;
 }
 .his-search>P{
-    font: 12px "Microsoft YaHei";
-    line-height: 64px;
+    font: 12px/64px "Microsoft YaHei";
     margin: 0;
     background: url(../image/his_search.png) no-repeat scroll center left 20px;
     padding-left: 65px;
@@ -433,8 +420,7 @@ body{
     color: #B1B1B1;
 }
 .main-count-list-num{
-    margin-top: 18px;
-    margin-left: 8px;
+    margin: 18px 0 0 8px;
     float: left;
 }
 .main-count-color-box{
@@ -443,8 +429,7 @@ body{
 .main-count-color{
     width: 60px;
     height: 46px;
-    margin-top: 11px;
-    margin-right: 14px;
+    margin: 11px 14px 0 0;
 }
 .main-count-list-1{
     border-left: 3px solid #43B29D;
@@ -477,8 +462,7 @@ body{
     width: 100%;
     background-color: #F4F6F7;
     margin: 0;
-    font: 12px "黑体";
-    line-height: 40px;
+    font: 12px/40px "黑体";
     padding-left: 20px;
     color: #B1B1B1;
 }
@@ -499,18 +483,16 @@ body{
 }
 .main-project-list{
     padding-left: 20px;
-    margin-top: 12px;
-    margin-bottom: 0;
+    margin: 12px 0 0 0;
 }
 /*☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆*/
 .main-project-list>li{
     list-style-type: none;
     display: inline-block;
     background-color: #EDEDEF;
-    font: 12px "Microsoft YaHei";
+    font: 12px/28px "Microsoft YaHei";
     height: 28px;
     width: 82px;
-    line-height: 28px;
     text-align: center;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -533,12 +515,10 @@ body{
     height: 250px;
     border: 1px solid #CACBCB;
     border-radius: 0 3px 3px 3px;
-    margin-left: 20px;
-    margin-top: -1px;
+    margin: -1px 0 0 20px;
 }
 .main-project-table{
-    margin-left: 37px;
-    margin-top: 28px;
+    margin: 28px 0 0 37px;
 }
 .main-project-table td{
     border: 1px solid #CACBCB;
@@ -553,8 +533,7 @@ body{
 }
 .main-project-search-table{
     width: 279px;
-    margin-left: 35px;
-    margin-top: 13px;
+    margin: 13px 0 0 35px;
     font: 12px "Microsoft YaHei";
 }
 .main-project-search-table textarea{
