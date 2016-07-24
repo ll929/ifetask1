@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFE Task 1</title>
+    <style type="text/css">
+        #wrap{
+            width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #wrap{
+            list-style-position: inside;
+            font: 26px "黑体";
+        }
+        #taskList{
+            padding: 0;
+        }
+        #taskList li{
+            margin: 5px 0 5px 0;
+        }
+        #taskList li a{
+            margin-left: 20px;
+        }
+        #taskList li span{
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <h1>IFE Task 1</h1>
+    <p>没有使用js，全部是html+css</p>
+    <ul id="taskList">
+    </ul>
+</div>
+<script>
+    var ulList = document.getElementById("taskList"),
+            ulHtml = "";
+    var listArr = [3,6,9];
+    for(var i = 0; i <= 2 ;i++){
+        ulHtml += "<li><span>task"+listArr[i]+"</span><a href='https://ll929.github.io/ifetask1/task"+listArr[i]+"/task1_"+listArr[i]+".html' target='_blank'>demo</a><a href='https://github.com/ll929/ifetask1/tree/gh-pages/task"+listArr[i]+"' target='_blank'>源码</a></li>"
+    }
+    ulList.innerHTML = ulHtml;
+</script>
+</body>
+</html>
